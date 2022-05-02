@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div id="head-container">
+                <h1>Invoice creator</h1>
+                <p>Thanks for choosing GoodCorp, LLC!</p>    
+            </div>
+        </header>
+
+
+        <section>
+            <div id="btn-container">
+                <button class="btn" id="wash">Wash Car: $10</button>
+                <button class="btn" id="mow">Mow Lawn: $20</button>
+                <button class="btn" id="pull">Pull Weeds: $30</button>    
+            </div>
+            <div id="mid-section">
+                <div id="task-container">
+                    <p class="title">TASK</p>
+        </div>
+               
+               <div id="price-container">
+                    <p class="title">TOTAL</p>
+                </div>     
+            </div>
+
+            <div id="footer">
+                <div>
+                    <p class="title">Notes</p>
+                    <p class="title foot-style">We accept cash, credit card, or PayPal</p>
+                </div>
+                <div>
+                    <p class="title">TOTAL AMOUNT</p>
+                    <p id="total-cost">$</p>
+                </div>
+            </div>
+
+            <form  action="#" id="send-btn">
+                <input type="email" name="mail" id="num" class="form-control" required placeholder="Enter your email">
+                <button  id="send-button" type="button" onclick="sendMail();"><i class="bi bi-envelope-fill"></i>Send invoice</button>
+            </form>
+             
+        </section>
+
+
+        <script src="script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </body>
+</html>
+
+
