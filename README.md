@@ -1,15 +1,16 @@
 # Invoice-Generator
+This website helps corporations that serve lawn mowing by generating invoices and sending it to
+the client email.
 
-This project is about generating invoice to help corporations that serve lawn mowing 
+##### Features :
+1. Users can easily choose the service.
+2. Users can easily remove service from the invoice.
+3. Users can choose a service multiple times.
+4. Total cost is calculated and updated every time a user chooses or removes a service.
+5. User has the ability to send the invoice to the client email.
+6. View optimal layout for different screen sizes.
 
-##### Features : 
-
-1. User can easily choose the service.
-2. User can easily remove service from invoice.
-3. User can add service multiple times and total cost stay updated.
-4. Total cost is calculated and updated everytime user choose or remove a service.
-5. User has the ability to send the invoice to client via email.
-6. profissional design with responsive to work on mobile. 
+##### Technologies : HTML , CSS , JAVASCRIPT ,SMTP Service.
 
 #### live here : https://codepen.io/emad98/full/QWarapo
 
