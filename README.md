@@ -1,6 +1,6 @@
 # Invoice-Generator
-This website helps corporations that serve lawn mowing by generating invoices and sending it to
-the client email.
+This website helps corporations that serve lawn mowing by generating invoices and sending them to the client's email.
+
 
 ##### Features :
 1. Users can easily choose the service.
